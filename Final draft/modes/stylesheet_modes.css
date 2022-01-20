@@ -1,0 +1,310 @@
+body{
+    background-color: rgb(252, 248, 232);
+}
+
+#menu{
+    background-color: none;
+    padding: 5px 0px 60px 0px;
+    margin: 0px;
+    border-color: black;
+    border-style: groove;
+    border-width: 0px 0px 1px 0px;
+    color: black;
+}
+
+#logo{
+    background-color: none;
+    text-align: center;
+    text-decoration: none;
+    padding: none;
+    margin: 0px 30px 0px 30px;
+    font-family: 'Spectral SC', serif;
+    font-size: 30px;
+    color: black;
+    float: left;
+    display: block;
+}
+
+/*#nav{}*/
+
+#list{
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+}
+
+.nav_button {
+    background-color: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 50px 0px 50px;
+    border-radius: 100px 100px 50px 50px;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 20px;
+    color: black;
+    float: right;
+    display: block;
+}
+
+.nav_button:hover{
+    background-color: black;
+    color: rgb(252, 248, 232);
+    transition: background-color, 1s;
+}
+
+#grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    gap: 0px 40px;
+    margin: 40px 0px 90px 0px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid_item{
+    text-align: center;
+}
+
+/*.grid_style{}*/
+
+.grid_image{
+    width: 500px;
+    filter: contrast(500%) brightness(50%);
+    z-index: 1;
+}
+
+.grid_image:hover{
+    background-color: none;
+    filter: contrast(100%) brightness(100%) sepia(100%);
+    transition: filter, 1s;
+}
+
+/*.shift{
+    margin: -41px 0px 0px 0px;
+}*/
+
+.mirror_mode{
+    text-decoration: none;
+    color: black;
+}
+
+.mirror_mode:visited{
+    color: rgb(67, 59, 9);
+}
+
+#one{
+    z-index: 0;
+    width: 429px;
+    height: 435px;
+    position: absolute;
+    margin: 55px 0px 0px -215px;
+}
+
+#two{
+    z-index: 0;
+    width: 429px;
+    height: 435px;
+    position: absolute;
+    margin: 55px 0px 0px -215px;
+}
+
+#three{
+    z-index: 0;
+    width: 429px;
+    height: 435px;
+    position: absolute;
+    margin: 55px 0px 0px -215px;
+}
+
+#fiction{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0px 0px 0px;
+}
+
+#fiction:hover{
+    text-transform: uppercase;
+}
+
+#poetry{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#poetry:hover{
+    text-transform: uppercase;
+}
+
+#non-fiction{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0px 0px 0px;
+}
+
+#non-fiction:hover{
+    text-transform: uppercase;
+}
+
+#footer{
+    background-color: black;
+    margin: 50px 0px 0px 0px;
+    padding: 20px 0px 90px 0px;
+}
+
+#spacing{
+    margin: 0px 70px 0px 60px;
+    padding: 0px 20px 0px 20px;
+}
+.share{
+    list-style: none;
+    display: block;
+    float: right;
+    margin: 0px 40px 0px 40px;
+}
+
+.fa {
+    background-color: rgb(252, 248, 232);
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0px 50px 10px 50px;
+    border-radius: 100px 100px 50px 50px;
+    color: black;
+    width: 30px;
+    float: left;
+    display: block;
+  }
+
+.fa:hover{
+    background-color: black;
+    color: rgb(252, 248, 232);
+    transition: background-color, 1s;
+}
+
+#contributor{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 20px;
+    margin: 0px 0px 20px 720px;
+    color: rgb(252, 248, 232);
+    float: none;
+    display: block;
+}
+
+#github{
+    font-family: 'Spectral SC', serif;
+    text-decoration: none;
+    color: rgb(252, 248, 232);
+}
+
+#github:hover{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(252, 248, 232);
+}
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+     #menu{
+         border: none;
+         margin: 0px;
+     }
+     #logo{
+         font-size: 25px;
+         margin: 10px 100px 0px 20px;
+         text-align: left;
+         float: left;
+     }
+     .nav_button{
+         display: none;
+     }
+
+     #grid{
+        gap: 20px 0px;
+        margin: 30px 0px 0px 0px;
+        float: left;
+     }
+     .grid_item{
+         margin: 0px 0px 0px 0px;
+     }
+     #one{
+        width: 172px;
+        height: 179px;
+        margin: 20px 0px 0px -85px;
+     }
+     #two{
+        width: 172px;
+        height: 179px;
+        margin: 20px 0px 0px -85px;
+     }
+     #three{
+        width: 172px;
+        height: 179px;
+        margin: 20px 0px 0px -85px;
+     }
+
+     .grid_image{
+        width: 200px;
+     }
+
+     #fiction{
+         font-size: 20px;
+         font-weight: 500;
+         margin: 0px 0px 0px 0px;
+     }
+     #poetry{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0px 0px 20px 0px;
+     }
+     #non-fiction{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 10px 0px 30px 0px;
+     }
+
+     #footer{
+         float: left;
+         padding: 30px;
+         margin: 40px 0px 0px 0px;
+     }
+     .share{
+         font-size: 20px;
+         margin: 0px 0px 10px 0px;
+     }
+     .fa{
+        background-color: black;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        padding: 0px;
+        margin: 10px 0px 0px 10px;
+        color: rgb(252, 248, 232);
+        width: 30px;
+        float: left;
+     }
+     #contributor{
+         margin: 0px 40px 20px 40px;
+         font-family: 'Libre Caslon Display', serif;
+         font-size: 20px;
+         text-align: center;
+     }
+     
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up)
+ @media only screen and (min-width: 600px) {
+
+ /* Medium devices (landscape tablets, 768px and up)
+ @media only screen and (min-width: 768px) {...}
+ 
+ /* Large devices (laptops/desktops, 992px and up)
+ @media only screen and (min-width: 992px) {...}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up)
+ @media only screen and (min-width: 1200px) {...}*/

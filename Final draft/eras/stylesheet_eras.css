@@ -1,0 +1,399 @@
+body{
+    background-color: black;
+}
+
+#menu{
+    background-color: none;
+    padding: 5px 0px 60px 0px;
+    margin: 0px;
+    border-color: rgb(252, 248, 232);
+    border-style: groove;
+    border-width: 0px 0px 1px 0px;
+    color: black;
+}
+
+#logo{
+    background-color: none;
+    text-align: center;
+    text-decoration: none;
+    padding: none;
+    margin: 0px 30px 0px 30px;
+    font-family: 'Spectral SC', serif;
+    font-size: 30px;
+    color: rgb(252, 248, 232);
+    float: left;
+    display: block;
+}
+
+/*#nav{}*/
+
+#list{
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+}
+
+.nav_button {
+    background-color: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 50px 0px 50px;
+    border-radius: 100px 100px 50px 50px;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 20px;
+    color: rgb(252, 248, 232);
+    float: right;
+    display: block;
+}
+
+.nav_button:hover{
+    background-color: rgb(252, 248, 232);
+    color: black;
+    transition: background-color, 1s;
+}
+
+#grid{
+    border-radius: 100px 100px 50px 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0px 170px;
+    margin: 0px 5% 50px 5%;
+    padding: 0px 10px 30px 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid_item{
+    text-align: center;
+}
+
+/*.grid_style{}*/
+
+#first{
+    display: block;
+    background-image: linear-gradient(145deg, rgba(129, 137, 149, 100), rgba(211, 218, 231, 100), rgba(129, 137, 149, 100));
+    padding: 90px 60px 60px 60px;
+    margin: 110px 0px 0px 90px;
+    position: absolute;
+    z-index: 0;
+}
+
+#second{
+    display: block;
+    background-image: linear-gradient(145deg, rgba(129, 137, 149, 100), rgba(211, 218, 231, 100), rgba(129, 137, 149, 100));
+    padding: 100px 90px 100px 80px;
+    margin: 50px 0px 0px 70px;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 0;
+}
+
+#third{
+    display: block;
+    background-image: linear-gradient(145deg, rgba(129, 137, 149, 100), rgba(211, 218, 231, 100), rgba(129, 137, 149, 100));
+    padding: 130px 51px 50px 50px;
+    margin: 80px 0px 0px 100px;
+    border-radius: 100px 100px 0px 0px;
+    position: absolute;
+    z-index: 0;
+}
+
+#fourth{
+    display: block;
+    background-image: linear-gradient(145deg, rgba(129, 137, 149, 100), rgba(211, 218, 231, 100), rgba(129, 137, 149, 100));
+    padding: 160px 40px 50px 50px;
+    margin: 60px 0px 0px 110px;
+    position: absolute;
+    z-index: 0;
+}
+
+#fifth{
+    display: block;
+    background-image: linear-gradient(145deg, rgba(129, 137, 149, 100), rgba(211, 218, 231, 100), rgba(129, 137, 149, 100));
+    padding: 160px 150px 100px 50px;
+    margin: 20px 0px 0px 50px;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 0;
+}
+
+#sixth{
+    display: block;
+    background-image: linear-gradient(145deg, rgba(129, 137, 149, 100), rgba(211, 218, 231, 100), rgba(129, 137, 149, 100));
+    padding: 160px 40px 80px 110px;
+    margin: 30px 0px 0px 80px;
+    position: absolute;
+    z-index: 0;
+}
+
+
+.grid_image{
+    width: 300px;
+    filter: contrast(500%) brightness(50%);
+    z-index: 1;
+}
+
+.grid_image:hover{
+    background-color: none;
+    filter: contrast(100%) brightness(100%) sepia(100%);
+    transition: filter, 1s;
+}
+
+#shift{
+    margin: 30px 0px 0px 0px;
+}
+
+.mirror_era{
+    text-decoration: none;
+    color: rgb(252, 248, 232);
+}
+
+.mirror_era:visited{
+    color: rgb(249, 241, 210);
+}
+
+#sixteenth{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#sixteenth:hover{
+    font-size: 35px;
+    text-transform: lowercase;
+    margin: 10px 0px 26px 0px;
+}
+
+#seventeenth{
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 40px 0px 0px 0px;
+}
+
+#seventeenth:hover{
+    font-size: 35px;
+    text-transform: lowercase;
+    margin: 30px 0px 0px 0px;
+}
+
+#eighteenth{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 40px 0px 0px 0px;
+}
+
+#eighteenth:hover{
+    font-size: 35px;
+    text-transform: lowercase;
+    margin: 30px 0px 0px 0px;
+}
+
+#nineteenth{
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 40px 0px 0px 0px;
+}
+
+#nineteenth:hover{
+    font-size: 35px;
+    text-transform: lowercase;
+    margin: 30px 0px 0px 0px;
+}
+
+#twentieth{
+    font-family: 'Sorts Mill Goudy', serif;   
+    font-size: 30px;
+    font-weight: 600;
+    margin: 40px 0px 0px 0px;
+}
+
+#twentieth:hover{
+    font-size: 35px;
+    text-transform: lowercase;
+    margin: 30px 0px 2px 0px;
+}
+
+#twenty-first{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 40px 0px 0px 0px;
+    text-indent: 15px;
+}
+
+#twenty-first:hover{
+    font-size: 35px;
+    text-transform: lowercase;
+    margin: 30px 0px 0px 0px;
+}
+
+#footer{
+    background-color: rgb(252, 248, 232);
+    padding: 20px 40px 90px 40px;
+}
+
+.share{
+    list-style: none;
+    display: block;
+    float: right;
+    margin: 0px 10px 0px 0px;
+}
+
+.fa {
+    background-color: rgb(252, 248, 232);
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0px 30px 0px 30px;
+    border-radius: 100px 100px 50px 50px;
+    color: black;
+    width: 30px;
+    float: left;
+    display: block;
+  }
+
+.fa:hover{
+    background-color: black;
+    color:rgb(252, 248, 232);
+    transition: background-color, 1s;
+}
+
+#contributor{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 20px;
+    margin: 30px;
+    float: left;
+    display: block;
+}
+
+#github{
+    font-family: 'Spectral SC', serif;
+    text-decoration: none;
+    color: black;
+}
+
+#github:hover{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    #menu{
+        border: none;
+        margin: 0px;
+    }
+    #logo{
+        font-size: 25px;
+        margin: 10px 100px 0px 20px;
+        text-align: left;
+        float: left;
+    }
+    .nav_button{
+        display: none;
+    }
+
+    #grid{
+       gap: 20px 0px;
+       margin: 30px 0px 0px 0px;
+       float: left;
+    }
+    .grid_item{
+        margin: 0px 0px 0px 0px;
+    }
+    #first{
+       padding: 50px 30px 50px 50px;
+       margin: 50px 0px 0px 60px;
+    }
+    #second{
+       padding: 60px 60px 80px 60px;
+       margin: 30px 0px 0px 40px;
+    }
+    #third{
+       padding: 121px 0px 0px 65px;
+       margin: 50px 0px 0px 67px;
+    }
+    #fourth{
+       padding: 90px 20px 50px 50px;
+       margin: 40px 0px 0px 70px;
+    }
+    #fifth{
+       padding: 100px 130px 80px 0px;
+       margin: 10px 0px 0px 31px;
+    }
+    #sixth{
+       padding: 160px 40px 0px 60px;
+       margin: 20px 0px 0px 50px;
+    }
+    .grid_image{
+       width: 200px;
+    }
+
+    #shift{
+        margin: 0px;
+    }
+
+    #sixteenth{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0px 0px 0px 0px;
+    }
+    #seventeenth{
+       font-size: 20px;
+       font-weight: 500;
+       margin: 0px 0px 20px 0px;
+    }
+    #eighteenth{
+       font-size: 20px;
+       font-weight: 500;
+       margin: 10px 0px 30px 0px;
+    }
+    #nineteenth{
+       font-size: 20px;
+       font-weight: 500;
+       margin: 10px 0px 20px 0px;
+    }
+    #twentieth{
+       font-size: 20px;
+       font-weight: 500;
+       margin: 10px 0px 20px 0px;
+    }
+    #twenty-first{
+       font-size: 20px;
+       font-weight: 500;
+       margin: 10px 0px 0px 0px;
+    }
+    #footer{
+        float: left;
+        padding: 30px;
+        margin: 40px 0px 0px 0px;
+    }
+    .share{
+        font-size: 20px;
+        margin: 0px 0px 10px 0px;
+    }
+    .fa{
+       background-color: none;
+       font-size: 20px;
+       text-align: center;
+       text-decoration: none;
+       padding: 0px;
+       margin: 10px 0px 0px 13px;
+       color: black;
+       width: 30px;
+       float: left;
+    }
+    #contributor{
+        margin: 0px 40px 20px 10px;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+}
