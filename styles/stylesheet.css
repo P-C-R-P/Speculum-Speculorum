@@ -1,0 +1,670 @@
+#header {
+  background-color: rgb(212, 226, 212);
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  margin: 0px;
+  font-family: "Libre Caslon Display", serif;
+  font-size: 20px;
+  color: black;
+}
+
+#menu {
+  background-color: rgb(252, 248, 232);
+  padding: 20px 0px 80px 0px;
+  margin: 0px;
+}
+
+#logo {
+  background-color: none;
+  text-align: center;
+  text-decoration: none;
+  padding: none;
+  margin: 10px 30px 0px 30px;
+  font-family: "Spectral SC", serif;
+  font-size: 30px;
+  color: black;
+  float: left;
+  display: block;
+}
+
+/*#nav{}*/
+
+#list {
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+}
+
+.nav_button {
+  background-color: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 50px 0px 50px;
+  border-radius: 100px 100px 50px 50px;
+  font-family: "Libre Caslon Display", serif;
+  font-size: 20px;
+  color: black;
+  float: right;
+  display: block;
+}
+
+.nav_button:hover {
+  background-color: rgb(236, 179, 144);
+  color: rgb(252, 248, 232);
+  transition: background-color, 1s;
+}
+
+#container {
+  background-color: white;
+  text-align: center;
+  padding: 20px 30px 0px 30px;
+  margin: 30px 60px 30px 60px;
+  border-color: black;
+  border-style: groove;
+  border-width: 10px;
+  color: black;
+}
+
+#title {
+  font-family: "Spectral SC", serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#subtitle {
+  font-family: "Libre Caslon Display", serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#justify {
+  font-family: "Libre Caslon Display", serif;
+  text-align: left;
+  text-indent: 10px;
+  font-size: 20px;
+  padding: 0px 30px 0px 30px;
+  line-height: 2;
+}
+
+.mirror_element {
+  font-family: "Spectral SC", serif;
+}
+
+#grid {
+  background-color: rgb(251, 240, 233);
+  border-radius: 100px 100px 50px 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 0px 170px;
+  margin: 0px 5% 50px 5%;
+  padding: 0px 10px 30px 10px;
+  grid-template-columns: auto auto auto;
+}
+
+.grid_item {
+  text-align: center;
+  margin-top: 0px;
+}
+
+/*.grid_style{}*/
+
+#first {
+  display: block;
+  background-image: linear-gradient(
+    145deg,
+    rgba(129, 137, 149, 100),
+    rgba(211, 218, 231, 100),
+    rgba(129, 137, 149, 100)
+  );
+  padding: 90px 60px 60px 60px;
+  margin: 110px 0px 0px 90px;
+  position: absolute;
+  z-index: 0;
+}
+
+#second {
+  display: block;
+  background-image: linear-gradient(
+    145deg,
+    rgba(129, 137, 149, 100),
+    rgba(211, 218, 231, 100),
+    rgba(129, 137, 149, 100)
+  );
+  padding: 100px 90px 100px 80px;
+  margin: 50px 0px 0px 70px;
+  border-radius: 100px;
+  position: absolute;
+  z-index: 0;
+}
+
+#third {
+  display: block;
+  background-image: linear-gradient(
+    145deg,
+    rgba(129, 137, 149, 100),
+    rgba(211, 218, 231, 100),
+    rgba(129, 137, 149, 100)
+  );
+  padding: 130px 51px 50px 50px;
+  margin: 80px 0px 0px 100px;
+  border-radius: 100px 100px 0px 0px;
+  position: absolute;
+  z-index: 0;
+}
+
+#fourth {
+  display: block;
+  background-image: linear-gradient(
+    145deg,
+    rgba(129, 137, 149, 100),
+    rgba(211, 218, 231, 100),
+    rgba(129, 137, 149, 100)
+  );
+  padding: 160px 40px 50px 50px;
+  margin: 60px 0px 0px 110px;
+  position: absolute;
+  z-index: 0;
+}
+
+#fifth {
+  display: block;
+  background-image: linear-gradient(
+    145deg,
+    rgba(129, 137, 149, 100),
+    rgba(211, 218, 231, 100),
+    rgba(129, 137, 149, 100)
+  );
+  padding: 160px 150px 100px 50px;
+  margin: 20px 0px 0px 50px;
+  border-radius: 100px;
+  position: absolute;
+  z-index: 0;
+}
+
+#sixth {
+  display: block;
+  background-image: linear-gradient(
+    145deg,
+    rgba(129, 137, 149, 100),
+    rgba(211, 218, 231, 100),
+    rgba(129, 137, 149, 100)
+  );
+  padding: 160px 40px 80px 110px;
+  margin: 30px 0px 0px 80px;
+  position: absolute;
+  z-index: 0;
+}
+
+.grid_image {
+  width: 300px;
+  filter: contrast(500%) brightness(50%);
+  z-index: 1;
+}
+
+.grid_image:hover {
+  background-color: none;
+  filter: contrast(100%) brightness(100%) sepia(100%);
+  transition: filter, 1s;
+}
+
+#shift {
+  margin: 30px 0px 0px 0px;
+}
+
+.mirror_era {
+  text-decoration: none;
+  color: black;
+}
+
+.mirror_era:visited {
+  color: rgb(63, 90, 63);
+}
+
+#sixteenth {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#sixteenth:hover {
+  color: rgb(223, 120, 97);
+  transition: color, 1s;
+}
+
+#seventeenth {
+  font-family: "EB Garamond", serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 30px 0px 0px 0px;
+}
+
+#seventeenth:hover {
+  color: rgb(223, 120, 97);
+  transition: color, 1s;
+}
+
+#eighteenth {
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 40px 0px 0px 0px;
+}
+
+#eighteenth:hover {
+  color: rgb(223, 120, 97);
+  transition: color, 1s;
+}
+
+#nineteenth {
+  font-family: "Libre Caslon Text", serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 40px 0px 0px 0px;
+}
+
+#nineteenth:hover {
+  color: rgb(223, 120, 97);
+  transition: color, 1s;
+}
+
+#twentieth {
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 40px 0px 0px 0px;
+}
+
+#twentieth:hover {
+  color: rgb(223, 120, 97);
+  transition: color, 1s;
+}
+
+#twenty-first {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 40px 0px 0px 0px;
+  text-indent: 15px;
+}
+
+#twenty-first:hover {
+  color: rgb(223, 120, 97);
+  transition: color, 1s;
+}
+
+#footer {
+  background-color: rgb(223, 120, 97);
+  padding: 20px 40px 90px 40px;
+}
+
+.share {
+  list-style: none;
+  display: block;
+  float: right;
+  margin: 0px 10px 0px 0px;
+}
+
+.fa {
+  background-color: rgb(251, 237, 234);
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  margin: 0px 30px 0px 30px;
+  border-radius: 100px 100px 50px 50px;
+  color: black;
+  width: 30px;
+  float: left;
+  display: block;
+}
+
+.fa:hover {
+  background-color: rgb(236, 179, 144);
+  color: rgb(252, 248, 232);
+  transition: background-color, 1s;
+}
+
+#contributor {
+  font-family: "Libre Caslon Display", serif;
+  font-size: 20px;
+  margin: 30px;
+  float: left;
+  display: block;
+}
+
+#github {
+  font-family: "Spectral SC", serif;
+  text-decoration: none;
+  color: rgb(252, 248, 232);
+}
+
+#github:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgb(252, 248, 232);
+}
+
+@media only screen and (max-width: 600px) {
+  #header {
+    padding: 20px 0px 20px 0px;
+    font-size: 16px;
+  }
+  #menu {
+    border: none;
+    margin: 0px;
+    padding: 0px 0px 90px 0px;
+  }
+  #logo {
+    font-size: 25px;
+    margin: 10px 100px 0px 20px;
+    text-align: left;
+    float: left;
+  }
+
+  .nav_button {
+    display: none;
+  }
+
+  #container {
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 0px 20px;
+    border-width: 5px;
+  }
+
+  #title {
+    font-family: "Spectral SC", serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #subtitle {
+    display: none;
+  }
+
+  #justify {
+    text-indent: 0px;
+    font-size: 16px;
+    padding: 0px 20px 0px 20px;
+    line-height: 1.5;
+  }
+
+  #grid {
+    gap: 20px 0px;
+    margin: 20px 20px 0px 20px;
+    float: left;
+    padding: 30px 10px 30px 10px;
+  }
+  .grid_item {
+    margin: 0px 0px 0px 0px;
+  }
+  #first {
+    padding: 50px 30px 50px 50px;
+    margin: 50px 0px 0px 60px;
+  }
+  #second {
+    padding: 60px 60px 80px 60px;
+    margin: 30px 0px 0px 40px;
+  }
+  #third {
+    padding: 121px 0px 0px 65px;
+    margin: 50px 0px 0px 67px;
+  }
+  #fourth {
+    padding: 90px 20px 50px 50px;
+    margin: 40px 0px 0px 70px;
+  }
+  #fifth {
+    padding: 100px 130px 80px 0px;
+    margin: 10px 0px 0px 31px;
+  }
+  #sixth {
+    padding: 160px 40px 0px 60px;
+    margin: 20px 0px 0px 50px;
+  }
+  .grid_image {
+    width: 200px;
+  }
+
+  #shift {
+    margin: 0px 0px 0px 0px;
+  }
+
+  #sixteenth {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+  }
+  #seventeenth {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 0px 20px 0px;
+  }
+  #eighteenth {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px 30px 0px;
+  }
+  #nineteenth {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px 20px 0px;
+  }
+  #twentieth {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px 20px 0px;
+  }
+  #twenty-first {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px 0px 0px;
+  }
+  #footer {
+    float: left;
+    padding: 30px;
+    margin: 30px 0px 0px 0px;
+  }
+  .share {
+    font-size: 20px;
+    margin: 0px 0px 10px 0px;
+    background-color: none;
+  }
+  .fa {
+    background-color: rgb(223, 120, 97);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px;
+    margin: 20px 0px 10px 10px;
+    width: 30px;
+    float: left;
+  }
+  #contributor {
+    margin: 0px 40px 20px 40px;
+    font-family: "Libre Caslon Display", serif;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+/*Coming Soon Page*/
+
+#soon {
+  background-image: linear-gradient(
+    145deg,
+    rgba(129, 137, 149, 100),
+    rgba(211, 218, 231, 100),
+    rgba(129, 137, 149, 100)
+  );
+}
+
+#return {
+  margin: 110px 0px 0px 41.25%;
+  padding: 100px 0px 25px 0px;
+  filter: contrast(500%) brightness(50%);
+  width: 300px;
+  -webkit-animation: pulsate 3s ease-in;
+  -webkit-animation-iteration-count: infinite;
+  opacity: 0;
+}
+@-webkit-keyframes pulsate {
+  0% {
+    opacity: 0.1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+
+#return:hover {
+  background-color: none;
+  filter: contrast(100%) brightness(100%) sepia(100%);
+  transition: filter, 1s;
+}
+
+#coming {
+  font-family: "Spectral SC", serif;
+  text-align: center;
+  font-size: 50px;
+  padding: 0px 0px 250px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  #soon {
+    background-image: linear-gradient(
+      145deg,
+      rgba(129, 137, 149, 100),
+      rgba(211, 218, 231, 100),
+      rgba(129, 137, 149, 100)
+    );
+  }
+
+  #return {
+    margin: 120px 0px 0px 22.75%;
+    padding: 100px 0px 25px 0px;
+    filter: contrast(500%) brightness(50%);
+    width: 200px;
+    -webkit-animation: pulsate 3s ease-in;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0;
+  }
+  @-webkit-keyframes pulsate {
+    0% {
+      opacity: 0.1;
+    }
+    25% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 0.1;
+    }
+  }
+
+  #coming {
+    font-family: "Spectral SC", serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px 0px 270px 0px;
+  }
+}
+
+/*About page*/
+
+#titular {
+  margin: 90px 0px 60px 0px;
+  font-family: "Spectral SC", serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#subtitular {
+  font-family: "Libre Caslon Display", serif;
+  font-size: 30px;
+  font-style: italic;
+  margin: 50px 0px 0px 0px;
+}
+
+#speculum {
+  font-family: "Spectral SC", serif;
+  font-size: 23px;
+  font-weight: bold;
+  color: black;
+}
+
+#definition {
+  font-family: "Libre Caslon Display", serif;
+  text-align: left;
+  text-indent: 10px;
+  font-size: 30px;
+  padding: 20px 110px 0px 110px;
+  line-height: 2;
+}
+
+#information {
+  font-family: "Libre Caslon Display", serif;
+  text-align: right;
+  text-indent: 10px;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: italic;
+  padding: 0px 110px 0px 0px;
+  line-height: 2;
+}
+
+#description {
+  font-family: "Libre Caslon Display", serif;
+  text-align: left;
+  text-indent: 10px;
+  font-size: 30px;
+  padding: 0px 100px 50px 100px;
+  line-height: 2;
+}
+
+#project {
+  font-family: "Libre Caslon Display", serif;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 100px 100px 50px 50px;
+  color: rgb(63, 90, 63);
+}
+
+#project:hover {
+  background-color: rgb(63, 90, 63);
+  transition: background-color, 1s;
+  color: rgb(252, 248, 232);
+}
+
+#project:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#spacer {
+  margin: 0px 0px 100px 0px;
+}
+
+#footing {
+  background-color: rgb(223, 120, 97);
+  padding: 20px 40px 90px 40px;
+  margin: 90px 0px 0px 0px;
+}
